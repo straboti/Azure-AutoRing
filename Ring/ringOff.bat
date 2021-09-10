@@ -1,1 +1,0 @@
-rshell repl ~ from ringoff import *~

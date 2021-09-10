@@ -4,7 +4,7 @@ print('init')
 hasPlayed = False
 dataf = open(aze.localize("data.csv"),"r")
 data = str(dataf.read())
-data = data.split(",")
+data = data.split(";")
 datad = dict()
 work = str()
 for e in data:

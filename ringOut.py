@@ -1,3 +1,11 @@
 from time import sleep
-def ring(len):
+
+def ron():
     pass
+def roff():
+    pass
+
+def ring(len):
+    ron()
+    sleep(len)
+    roff()

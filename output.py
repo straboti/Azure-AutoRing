@@ -1,11 +1,13 @@
 ﻿import rshell
 import time
+
 def pir(onoff):
-    if onoff == "on":
+    if onoff == 1:
         pass
     else:
         pass
+
 def ring(length):
-    pir("on")
+    pir(1)
     time.sleep(length)
-    pir("off")
+    pir(0)

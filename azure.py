@@ -1,5 +1,4 @@
-﻿import os
-import time
+﻿import time
 import azureEssentials as aze
 print('init')
 hasPlayed = False

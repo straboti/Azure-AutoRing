@@ -5,9 +5,9 @@ dir = str(os.path.dirname(os.path.abspath(__file__)))
 
 def pir(onoff):
     if onoff == 1:
-        pass
+        os.system(str(dir) + r"\Ring\ringOn.bat")
     else:
-        pass
+        os.system(str(dir) + r"\Ring\ringOff.bat")
 
 def ring(length):
     pir(1)

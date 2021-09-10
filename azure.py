@@ -2,7 +2,7 @@
 import azureEssentials as aze
 print('init')
 hasPlayed = False
-dataf = open(aze.localize("data.txt"),"r")
+dataf = open(aze.localize("data.csv"),"r")
 data = str(dataf.read())
 data = data.split(",")
 datad = dict()

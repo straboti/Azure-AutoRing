@@ -1,4 +1,1 @@
-rshell repl
-from machine import Pin
-out = Pin(0,Pin.OUT)
-out.on()
+rshell repl ~ from ringon import *~

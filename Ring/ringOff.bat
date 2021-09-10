@@ -1,5 +1,6 @@
-rshell -p COM3 --buffer-size 512
-repl
+rshell repl
 from machine import Pin
 out = Pin(0,Pin.OUT)
 out.off()
+print(0)
+pause
